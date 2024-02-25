@@ -5,7 +5,7 @@ View(Stock_Market_Dataset)
 
 #head and tail of excel files
 head(Stock_Market_Dataset)
-tail(Stock_Market_Dataset)
+tail(Stock_Market_Dataset) 
 
 #modifying files
 Stock_Market_Dataset$Natural_Gas_Vol. <- 20
