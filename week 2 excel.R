@@ -1,4 +1,8 @@
 #Import the excel file into R studio using import dataset in environment in right top side
+library(readxl)
+Stock_Market_Dataset <- read_excel("C:/Users/HP/Downloads/Stock Market Dataset.xls")
+View(Stock_Market_Dataset)
+
 #head and tail of excel files
 head(Stock_Market_Dataset)
 tail(Stock_Market_Dataset)
