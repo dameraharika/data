@@ -1,4 +1,8 @@
 #working on csv files
+
+library(readr)
+student_dataset <- read_csv("student-dataset.csv")
+
 # print number of columns 
 print (ncol(student_dataset))  
 
@@ -8,7 +12,7 @@ print(nrow(student_dataset))
 #Aggregator functions (min, max, count etc.) can be applied on the CSV data
 min_age <- min(student_dataset$age)
 print(min_age)
-max_age <- max(student_dataset$age)
+max_age <- max(student_dataset$age) 
 print(max_age)
 
 #The subset of the data that is created is stored as a data frame satisfying the conditions specified as the arguments of the function
